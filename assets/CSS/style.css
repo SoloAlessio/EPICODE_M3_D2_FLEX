@@ -1,0 +1,113 @@
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    background-color: #f7f7f7;
+    font-family: helvetica;
+    padding: 16px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+}
+nav{
+    border-radius: 100px;
+    background-color: #fef7e2;
+    padding: 24px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+nav ul li{
+    list-style: none;
+    color: #221e11;
+    background-color: #ffdf7e;
+    padding: 12px 32px;
+    border-radius: 100px;
+}
+li#logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li#logo h2{
+    padding: 0 48px;
+}
+li#logo img{
+    width: 64px;
+}
+.scroll-bar{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 48px;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+    border-radius: 40px;
+    background-color: #fef7e2;
+    gap: 36px;
+}
+main img, main .text{
+    width: 50%;
+}
+main .text h1{
+    margin-bottom: 24px;
+    color: #a8764c;
+}
+main .text p{
+    color: #b88154;
+    line-height: 1.5;
+    font-size: 18px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: center;
+    width: 300px;
+    background-color: #fef7e2;
+    border-radius: 100px;
+    overflow: hidden;
+}
+.card .img{
+    width: 100%;
+    height: 280px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card .text{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 16px 32px;
+}
+.card .text > input{
+    background-color: #ffdf7e;
+    border: none;
+    padding: 10px 48px;
+    border-radius: 24px;
+    display: block;
+    margin: 0 auto;
+}
+.card .text .description{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+}
+.card .text .description .title{
+    text-align: center;
+}
